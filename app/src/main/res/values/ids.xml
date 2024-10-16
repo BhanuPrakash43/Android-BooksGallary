@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="filter_comic" type="id" />
+    <item name="filter_hindi" type="id" />
+    <item name="filter_english" type="id" />
+</resources>

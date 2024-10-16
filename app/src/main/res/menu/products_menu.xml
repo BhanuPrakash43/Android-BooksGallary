@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/sorting">
+        <item
+            android:id="@+id/sort_a_z"
+            android:title="@string/sort_a_z" />
+        <item
+            android:id="@+id/sort_price_asc"
+            android:title="@string/sort_price_ascending" />
+        <item
+            android:id="@+id/sort_price_desc"
+            android:title="@string/sort_price_descending" />
+    </group>
+
+    <group android:id="@+id/filter">
+        <item
+            android:id="@+id/filter_all"
+            android:title="@string/filter_all" />
+        <item
+            android:id="@+id/filter_comic"
+            android:title="Filter: Comic" />
+        <item
+            android:id="@+id/filter_hindi"
+            android:title="Filter: Hindi" />
+        <item
+            android:id="@+id/filter_english"
+            android:title="Filter: English" />
+    </group>
+</menu>
